@@ -3,5 +3,5 @@ def square_array(array)
   array.each do |el|
     sqArray << el**2
   end
-  puts sqArray
+  return sqArray
 end
