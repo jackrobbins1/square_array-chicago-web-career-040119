@@ -1,7 +1,7 @@
 def square_array(array)
   sqArray = []
   array.each do |el|
-    el**2
+    sqArray.push(el**2)
   end
   puts sqArray
 end
